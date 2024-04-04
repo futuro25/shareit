@@ -1,30 +1,24 @@
 const localConfig = {
   hostname: "localhost",
-  // baseUrl: "http://localhost:3000",
-  // inviteLink: "http://localhost:3000/invite?inviteId=",
-  // resourcesLink: "http://localhost:3000/api/resources",
-  // devMode: true,
-  // brand: "ShareIt",
+  baseUrl: "http://localhost:3000",
+  devMode: true,
+  brand: "ShareIt",
 }
 
 const devConfig = {
-  hostname: "crear-app-a94ef456bf1a.herokuapp.com",
-  // baseUrl: "https://crear-app-a94ef456bf1a.herokuapp.com",
-  // inviteLink: "https://crear-app-a94ef456bf1a.herokuapp.com/invite?inviteId=",
-  // resourcesLink: "http://localhost:3000/api/resources",
-  // devMode: false,
-  // devel: false,
-  // brand: "ShareIt",
+  hostname: "share-it-7013201cfe7b.herokuapp.com",
+  baseUrl: "https://share-it-7013201cfe7b.herokuapp.com",
+  devMode: false,
+  devel: false,
+  brand: "ShareIt",
 }
 
 const prodConfig = {
-  hostname: "crear-prod-532897b63fc6.herokuapp.com",
-  // baseUrl: "https://crear-prod-532897b63fc6.herokuapp.com",
-  // inviteLink: "https://crear-prod-532897b63fc6.herokuapp.com/invite?inviteId=",
-  // resourcesLink: "https://crear-app-a94ef456bf1a.herokuapp.com/api/resources",
-  // devMode: false,
-  // devel: false,
-  // brand: "ShareIt",
+  hostname: "share-it-7013201cfe7b.herokuapp.com",
+  baseUrl: "https://share-it-7013201cfe7b.herokuapp.com",
+  devMode: false,
+  devel: false,
+  brand: "ShareIt",
 }
 
 let config;
